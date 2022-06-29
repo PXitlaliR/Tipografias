@@ -1,0 +1,94 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100%;
+    overflow: hidden;
+    background: url('images/img.jpg') no-repeat top;
+    background-size: cover;
+}
+@font-face {
+    font-family: 'Hagin';
+    src: url('fonts/HaginCapsMedium-Medium.woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-LightItalic.ttf');
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Noted-Party.ttf');
+}
+@font-face {
+    font-family: 'Poppins-normal';
+    src: url('fonts/Poppins-Medium.ttf');
+}
+@font-face {
+    font-family: 'Poppins-normal';
+    src: url('fonts/Bondi.ttf');
+}
+
+.container {
+    width: 45%;
+    height: 60%;
+    position: relative;
+    top: 7%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.marca {
+    width: fit-content;
+    font-family: Popins;
+    font-size: 3rem;
+    color: rgb(243, 250, 195);
+    letter-spacing: 2px;
+}
+.titulo {
+    width: 90%;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    font-family: Bondi;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+    text-align: justify;
+    color: rgb(211, 206, 155);
+}
+
+.aviso {
+    width: 90%;
+    margin-top: 10px;
+    font-family: Bondi;
+    font-size: .8rem;
+    line-height: 1.5rem;
+    letter-spacing: .2rem;
+    text-align: left;
+    color: rgb(239, 239, 232);
+}
+
+.cta {
+    position: absolute;
+    bottom: 20%;
+    right: 7%;
+}
+
+.cta a {
+    border: solid;
+    font-family: Poppins-normal;
+    font-size: 1rem;
+    text-decoration: none;
+    padding: 15px 25px;
+    background-color: rgba(107, 107, 107, 0.6);
+    color: rgb(238, 238, 238);
+}
+
+.cta a:hover {
+    color: aliceblue;
+    background-color: rgba(7, 7, 7, 0.6);
+}
